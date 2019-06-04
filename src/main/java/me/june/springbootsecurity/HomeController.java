@@ -17,6 +17,7 @@ public class HomeController {
         return "hello";
     }
 
+    // /my 요청만 인증을 필요도하도록 구현
     @GetMapping("/my")
     public String my () {
         return "my";
